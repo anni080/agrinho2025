@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* O Bootstrap já cuida de padding e margin no body, geralmente */
+}
+
+.cabecalho {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2rem; /* Usando unidades rem para melhor responsividade */
+}
+
+.cabecalho h3 {
+    color: rgb(206, 206, 8);
+    margin-top: 1rem; /* Adicionando um pouco de espaço acima do subtítulo */
+}
+
+.alinha {
+    text-align: right;
+}
+
+.img-agro {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.br-3 {
+    border-radius: 0.5rem; /* Usando unidades rem para consistência com o Bootstrap */
+}
+
+.img-card {
+    max-height: 15rem; /* Altura máxima para as imagens dos cards */
+    width: 100%; /* Ocupa toda a largura do card */
+    object-fit: cover; /* Recorta a imagem para preencher o espaço sem perder a proporção */
+    border-radius: 0.5rem 0.5rem 0 0; /* Arredonda apenas as bordas superiores */
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.125); /* Estilo de borda padrão do Bootstrap */
+    border-radius: 0.5rem; /* Bordas arredondadas consistentes */
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra suave padrão do Bootstrap */
+}
+
+.card-body {
+    padding: 1.25rem; /* Espaçamento interno padrão do Bootstrap para o corpo do card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaçamento entre o texto e o botão */
+    height: 100%; /* Garante que o corpo do card ocupe toda a altura */
+}
+
+.card-title {
+    margin-bottom: 0.75rem; /* Espaçamento abaixo do título do card */
+    font-size: 1.25rem; /* Tamanho da fonte para o título do card */
+}
+
+.card-text {
+    flex-grow: 1; /* Permite que o texto cresça para ocupar o espaço disponível */
+}
+
+.btn-primary {
+    /* As cores e estilos básicos já são fornecidos pelo Bootstrap */
+    border-radius: 0.25rem; /* Bordas arredondadas padrão dos botões Bootstrap */
+}
+
+.img-slide {
+    max-height: 400px;
+    width: 100%; /* Ocupa toda a largura do carousel */
+    object-fit: contain; /* Garante que a imagem caiba no slide */
+    margin: 0 auto; /* Centraliza a imagem */
+    display: block;
+    border-radius: 0.5rem; /* Adicionando borda arredondada ao slide */
+}
+
+.carousel-inner {
+    border-radius: 0.5rem; /* Garante que as bordas arredondadas do slide funcionem */
+    overflow: hidden;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.7;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem; /* Usando unidades rem */
+    font-size: 0.9em;
+    margin-top: 2rem; /* Adicionando um pouco de espaço acima do footer */
+}
+
+.legenda-imagem {
+    font-size: 0.8em;
+    color: #6c757d; /* Cor de texto secundária do Bootstrap */
+    margin-top: 0.5rem;
+    display: block; /* Para ocupar a largura total */
+    text-align: center;
+}
