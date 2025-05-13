@@ -1,0 +1,16 @@
+/* energia.css */
+body {
+    background-color: var(--bs-light); /* Usando a cor "light" do Bootstrap */
+    font-family: var(--bs-font-sans-serif); /* Usando a fonte padrão do Bootstrap */
+    margin-top: 50px; /* Adicionando uma margem superior */
+}
+
+h1 {
+    color: var(--bs-primary); /* Usando a cor primária do Bootstrap */
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    color: var(--bs-secondary); /* Usando a cor secundária do Bootstrap */
+}

@@ -1,0 +1,39 @@
+/* agua.css */
+
+body {
+    background-color: #e0f2f7; /* Um azul bem claro, remetendo à água */
+    font-family: sans-serif; /* Uma fonte padrão */
+    color: #0d47a1; /* Um azul mais escuro para o texto */
+    margin: 0; /* Resetando a margem padrão do body */
+    padding-top: 20px; /* Adicionando um espaçamento no topo */
+}
+
+.container {
+    background-color: #ffffff; /* Fundo branco para o container principal */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Uma sombra suave */
+    margin-bottom: 20px; /* Espaçamento abaixo do container */
+}
+
+h1 {
+    color: #0277bd; /* Um azul mais vibrante para o título */
+    margin-bottom: 20px;
+    text-align: center; /* Centralizando o título */
+}
+
+p {
+    line-height: 1.6; /* Melhorando a legibilidade do texto */
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #4fc3f7; /* Um azul mais claro para o botão primário */
+    border-color: #4fc3f7;
+    color: #0d47a1;
+}
+
+.btn-primary:hover {
+    background-color: #03a9f4; /* Um azul um pouco mais escuro no hover */
+    border-color: #03a9f4;
+}
